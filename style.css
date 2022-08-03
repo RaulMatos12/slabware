@@ -1,0 +1,186 @@
+html,body{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #F1F1F1;
+}
+
+.header-c{
+    background-color: #151515;
+    color: white;
+    padding: 2px;
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-2{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.header-2:hover{
+    color: #FFAF1F;
+    transition: 0.2s;
+}
+
+.header-1{
+    margin-left: 50px;
+}
+
+.main-c{
+    flex: 1 0 auto;
+}
+
+.footer-c{
+    flex-shrink: 0;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.c{
+    background-color: white;
+    width: 450px;
+    padding: 5px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: #151515;
+    margin-bottom: 40px;
+}
+
+.initial-t{
+    text-align: center;
+}
+
+.initial{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.details-t{
+    margin-left: 25px;
+}
+
+.área{
+    display: flex;
+    margin-left: 25px;
+    flex-direction: column;
+    width: 400px;
+    gap: 10px;
+}
+
+#name{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    border-radius: 5px;
+}
+
+#email{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    border-radius: 5px;
+}
+
+#phone{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    border-radius: 5px;
+}
+
+#company{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    border-radius: 5px;
+}
+
+#login{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    border-radius: 5px;
+}
+
+#password{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    border-radius: 5px;
+}
+
+#temp-website{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    width: 300px;
+    border-radius: 5px;
+}
+
+#plans-title{
+    margin-left: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+#buybutton{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+.buynow{
+    border-radius: 18px;
+    width: 84px;
+    height: 26px;
+    background-color: #FFAF1F;
+    border-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.buynow:hover{
+    background-color: #ffc353;
+    transition: 0.2s;
+}
+
+#buynowbutton{
+    text-decoration: none;
+    color: black;
+}
+
+.site{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 11px;
+}
+
+.link{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    margin-top: 3px;
+    opacity: 75%;
+}
+
+.c88{
+   color: #151515
+ }
+.c4{
+  color: #FFAF1F
+}
+form [type="submit"]{
+  display: block;
+  background-color:  #FFAF1F;
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}

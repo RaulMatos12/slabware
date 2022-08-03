@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>SlabWare Test</title>
+</head>
+<body>
+    
+    <header class="header-c">
+        
+        <p class="header-2">BACK TO VERSIONS</p>
+    </header>
+    
+    <section class="main-c">
+        <div class="c">
+            
+            <div class="initial">
+                <h1 class="initial-t">Sign Up for Fabricator</h1>
+                <h4 class="details-t">Please enter your details</h4>
+            </div>
+            
+<div class="área">
+<input id="name" placeholder="  *Name..." type="text">
+<input id="email" placeholder="  *E-mail..." type="text">
+<input id="phone" placeholder="  *Phone..." type="text">
+<input id="company" placeholder="  *Company..." type="text">
+<input id="login" placeholder="  *Login..." type="text">
+<input id="password" placeholder="  *Password..." type="text">
+<div class="site">
+<input id="temp-website" placeholder="  *Temporary Website..." type="text">
+<p class="link">slabware.com</p>
+</div>
+</div>
+<h4 id="plans-title">Select your plan</h4>
+ 
+               
+<div class="select-plans">
+                <div>
+                    <input class="plan-input" id="monthly-plan" type="radio" name="plan" value="monthly" checked>
+                    <label id="monthly-plan-span" class="plan-content selected" for="monthly-plan" onclick="planSelector(this.id)">
+                        <h3 class="plan-title">Monthly</h3>
+                        <span class="plan-price">U$ 149</span>
+                        <span class="plan-per-month">Per month</span>
+                    </label>
+                </div>
+                <div>
+                    <input class="plan-input" id="semesterly-plan" type="radio" name="plan" value="semesterly">
+                    <label id="semesterly-plan-span" class="plan-content" for="semesterly-plan" onclick="planSelector(this.id)">
+                        <h3 class="plan-title">Semesterly</h3>
+                        <span class="plan-price">U$ 142</span>
+                        <span class="plan-per-month">Per month</span>
+                        <span class="plan-billed">Billed semesterly<strong> U$ 852</strong></span>
+                    </label>
+                </div>
+                <div>
+                    <input class="plan-input" id="yearly-plan" type="radio" name="plan" value="yearly">
+                    <label id="yearly-plan-span" class="plan-content" for="yearly-plan" onclick="planSelector(this.id)">
+                        <h3 class="plan-title">Yearly</h3>
+                        <span class="plan-price">U$ 135</span>
+                        <span class="plan-per-month">Per month</span>
+                        <span class="plan-billed">Billed yearly<strong> U$ 1,620</strong></span>
+                    </label>
+                
+                    </label>
+          
+
+            <div id="buybutton">
+                <button class="buynow"><a id="buynowbutton" href="#">BUY NOW</a></button>
+            </div>
+        </div>
+    </section>
+  
+</body>
+</html>
